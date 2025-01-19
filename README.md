@@ -23,16 +23,19 @@ Prerequisites:
 *Installation*
 
 1. Clone the repository to your local machine:
-```git clone https://github.com/Epix-Labs/MicroMocker.git
+```
+git clone https://github.com/Epix-Labs/MicroMocker.git
 cd micro-mocker
 ```
 2. Install the required dependencies:
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 
 *Running the Fake API*
 To run both the User and Vehicle Fake APIs simultaneously, use the provided script:
-```python main.py
+```
+python main.py
 ```
 - The User Service will run on http://127.0.0.1:8001.
 - The Vehicle Service will run on http://127.0.0.1:8002.
@@ -43,7 +46,8 @@ Both services will be started concurrently via the multiprocessing module, simul
 - GET /user/{user_id}: Retrieve user details by user_id.
 - PUT /user/{user_id}: Update user details by user_id.
 Sample Request
-```curl -X 'GET' 'http://127.0.0.1:8001/user/{user_id}' \
+```
+curl -X 'GET' 'http://127.0.0.1:8001/user/{user_id}' \
   -H 'accept: application/json' \
   -H 'Authorization: Basic <base64_encoded_credentials>'
 ```
@@ -66,7 +70,8 @@ Sample Request
 
 *Authentication*
 Both services use Basic Authentication. The format of the Authorization header is:
-```Authorization: Basic <base64_encoded_string>
+```
+Authorization: Basic <base64_encoded_string>
 ```
 You can encode your username and password in base64 (for example, username:password), and include it in the header.
 
