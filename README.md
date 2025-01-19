@@ -8,6 +8,10 @@ Key Features:
 - Basic Authentication: Both services implement Basic Authentication to ensure secure communication.
 - Simultaneous Development: Both services are run simultaneously using Python's multiprocessing module, allowing quick integration and testing of the Booking service without relying on the actual services.
 
+**Open swagger:**
+- For User service: http://127.0.0.1:8001/docs
+- For Booking service: http://127.0.0.1:8002/docs
+
 *Services Overview*
 - User Service: Mocks user data including registration, balance, and license verification.
 - Vehicle Service: Mocks vehicle data including booking status, payment types, and vehicle requirements.
@@ -39,6 +43,7 @@ python main.py
 ```
 - The User Service will run on http://127.0.0.1:8001.
 - The Vehicle Service will run on http://127.0.0.1:8002.
+  
 Both services will be started concurrently via the multiprocessing module, simulating communication for the Booking Service.
 
 *Service Endpoints*
