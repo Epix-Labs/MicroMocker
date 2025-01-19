@@ -1,4 +1,4 @@
-**Project Name: MicroMocker - Fake API for User and Vehicle Services*
+MicroMocker - Fake API for User and Vehicle Services*
 
 *Overview*
 This project simulates the User and Vehicle microservices for Booking service development. Since the actual User and Vehicle services are not ready yet, a Fake API has been created using FastAPI to mock both services for quick and simultaneous development. This allows your team to continue working on the Booking service logic, which relies on data from these two services, without waiting for their completion.
