@@ -4,7 +4,7 @@
       "is_verifyed": true,
       "balance": 1250000.50,
       "license_plate": {
-        "is_verified": true,
+        "is_verifyed": true,
         "issued_date": "2018-03-10",
         "expiry_date": "2028-03-10",
         "type": "B"
@@ -15,7 +15,7 @@
       "is_verifyed": false,
       "balance": 750000.75,
       "license_plate": {
-        "is_verified": false,
+        "is_verifyed": false,
         "issued_date": "2020-07-15",
         "expiry_date": "2030-07-15",
         "type": "C"
@@ -26,7 +26,7 @@
       "is_verifyed": true,
       "balance": 230000.00,
       "license_plate": {
-        "is_verified": true,
+        "is_verifyed": true,
         "issued_date": "2017-11-05",
         "expiry_date": "2027-11-05",
         "type": "A"
@@ -37,7 +37,7 @@
       "is_verifyed": false,
       "balance": 500000.00,
       "license_plate": {
-        "is_verified": false,
+        "is_verifyed": false,
         "issued_date": "2019-02-21",
         "expiry_date": "2029-02-21",
         "type": "BC"
@@ -48,7 +48,7 @@
       "is_verifyed": true,
       "balance": 1800000.25,
       "license_plate": {
-        "is_verified": true,
+        "is_verifyed": true,
         "issued_date": "2015-05-20",
         "expiry_date": "2025-05-20",
         "type": "E"
@@ -59,7 +59,7 @@
       "is_verifyed": true,
       "balance": 950000.50,
       "license_plate": {
-        "is_verified": true,
+        "is_verifyed": true,
         "issued_date": "2016-09-10",
         "expiry_date": "2026-09-10",
         "type": "B"
@@ -70,7 +70,7 @@
       "is_verifyed": false,
       "balance": 300000.75,
       "license_plate": {
-        "is_verified": false,
+        "is_verifyed": false,
         "issued_date": "2021-01-01",
         "expiry_date": "2031-01-01",
         "type": "C"
@@ -81,7 +81,7 @@
       "is_verifyed": true,
       "balance": 2100000.00,
       "license_plate": {
-        "is_verified": true,
+        "is_verifyed": true,
         "issued_date": "2012-04-12",
         "expiry_date": "2022-04-12",
         "type": "BC"
@@ -92,7 +92,7 @@
       "is_verifyed": true,
       "balance": 420000.00,
       "license_plate": {
-        "is_verified": true,
+        "is_verifyed": true,
         "issued_date": "2014-12-01",
         "expiry_date": "2024-12-01",
         "type": "E"
@@ -103,7 +103,7 @@
       "is_verifyed": false,
       "balance": 1100000.00,
       "license_plate": {
-        "is_verified": false,
+        "is_verifyed": false,
         "issued_date": "2019-06-18",
         "expiry_date": "2029-06-18",
         "type": "A"
@@ -114,7 +114,7 @@
       "is_verifyed": true,
       "balance": 600000.25,
       "license_plate": {
-        "is_verified": true,
+        "is_verifyed": true,
         "issued_date": "2015-10-30",
         "expiry_date": "2025-10-30",
         "type": "B"
@@ -125,7 +125,7 @@
       "is_verifyed": false,
       "balance": 250000.50,
       "license_plate": {
-        "is_verified": false,
+        "is_verifyed": false,
         "issued_date": "2020-09-12",
         "expiry_date": "2030-09-12",
         "type": "C"
@@ -136,7 +136,7 @@
       "is_verifyed": true,
       "balance": 1450000.00,
       "license_plate": {
-        "is_verified": true,
+        "is_verifyed": true,
         "issued_date": "2016-02-28",
         "expiry_date": "2026-02-28",
         "type": "BC"
@@ -147,7 +147,7 @@
       "is_verifyed": true,
       "balance": 890000.00,
       "license_plate": {
-        "is_verified": true,
+        "is_verifyed": true,
         "issued_date": "2013-08-03",
         "expiry_date": "2023-08-03",
         "type": "E"
@@ -158,7 +158,7 @@
       "is_verifyed": false,
       "balance": 320000.75,
       "license_plate": {
-        "is_verified": false,
+        "is_verifyed": false,
         "issued_date": "2021-04-14",
         "expiry_date": "2031-04-14",
         "type": "A"

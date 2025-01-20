@@ -13,15 +13,14 @@ class LicenseTypeEnum(str, Enum):
     E = "E"
 
 class LicensePlate(BaseModel):
-    is_verified: bool
+    is_verifyed: bool
     issued_date: date
     expiry_date: date
     type: LicenseTypeEnum
 
 class User(BaseModel):
-    id: UUID
     birth_of_date: date
-    is_verified: bool
+    is_verifyed: bool
     balance: condecimal(max_digits=12, decimal_places=2)  # type: ignore # tiyinda hisoblanadi
     license_plate: LicensePlate
     
