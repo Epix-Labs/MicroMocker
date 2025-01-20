@@ -1,1 +1,197 @@
-{"a123b456-c789-4def-9012-3456789abcd0": {"is_booked": false, "deposit": 1250000.0, "milage": 62000.5, "status": "available", "visible": true, "vehicle_requirements": [{"license_type": ["B", "C"], "experience": 24}], "payment_types": [{"type": "day", "amount": 65000.0}, {"type": "week", "amount": 420000.0}]}, "b234c567-d890-4efa-1234-56789bcdef01": {"is_booked": true, "deposit": 1800000.75, "milage": 95000.0, "status": "rented", "visible": false, "vehicle_requirements": [{"license_type": ["D"], "experience": 36}], "payment_types": [{"type": "month", "amount": 1500000.0}]}, "c345d678-e901-4fbc-2345-67890cdef012": {"is_booked": true, "deposit": 900000.0, "milage": 31000.25, "status": "booked", "visible": true, "vehicle_requirements": [{"license_type": ["A", "B"], "experience": 12}], "payment_types": [{"type": "milage", "amount": 10.5}, {"type": "hour", "amount": 2500.0}]}, "d456e789-f012-4bcd-3456-7890def01234": {"is_booked": true, "deposit": 2300000.5, "milage": 120000.0, "status": "in_maintenance", "visible": false, "vehicle_requirements": [{"license_type": ["C"], "experience": 18}], "payment_types": [{"type": "year", "amount": 12000000.0}]}, "e567f890-0123-4cde-4567-8901ef012345": {"is_booked": false, "deposit": 700000.0, "milage": 28000.75, "status": "available", "visible": true, "vehicle_requirements": [{"license_type": ["B"], "experience": 6}], "payment_types": [{"type": "day", "amount": 55000.0}]}, "f6789012-1234-4def-5678-9012f0123456": {"is_booked": false, "deposit": 1650000.0, "milage": 80000.0, "status": "available", "visible": true, "vehicle_requirements": [{"license_type": ["B", "D"], "experience": 30}], "payment_types": [{"type": "month", "amount": 1000000.0}, {"type": "week", "amount": 450000.0}]}, "g7890123-2345-4abc-6789-0123f1234567": {"is_booked": true, "deposit": 1400000.0, "milage": 68000.3, "status": "rented", "visible": false, "vehicle_requirements": [{"license_type": ["C"], "experience": 15}], "payment_types": [{"type": "milage", "amount": 8.75}]}, "h8901234-3456-4bcd-7890-1234f2345678": {"is_booked": false, "deposit": 1200000.5, "milage": 55000.2, "status": "available", "visible": true, "vehicle_requirements": [{"license_type": ["A", "B"], "experience": 9}], "payment_types": [{"type": "day", "amount": 60000.0}]}, "i9012345-4567-4cde-8901-2345f3456789": {"is_booked": true, "deposit": 2500000.0, "milage": 130000.45, "status": "in_maintenance", "visible": false, "vehicle_requirements": [{"license_type": ["B", "C"], "experience": 24}], "payment_types": [{"type": "year", "amount": 15000000.0}]}, "j0123456-5678-4def-9012-3456f4567890": {"is_booked": false, "deposit": 800000.0, "milage": 32000.1, "status": "available", "visible": true, "vehicle_requirements": [{"license_type": ["B"], "experience": 18}], "payment_types": [{"type": "week", "amount": 400000.0}]}}
+{
+    "a123b456-c789-4def-9012-3456789abcd0": {
+        "is_booked": true, 
+        "deposit": 1250000.0, 
+        "milage": 62000.5, 
+        "status": "in_maintenance", 
+        "visible": true, 
+        "vehicle_requirements": [
+            {
+                "license_type": ["B", "C"], 
+                "experience": 24
+            }
+        ], 
+        "payment_types": [
+            {"type": "day", "amount": 65000.0}, 
+            {"type": "week", "amount": 420000.0}
+            ]
+    }, 
+    "b234c567-d890-4efa-1234-56789bcdef01": {
+        "is_booked": true, 
+        "deposit": 1800000.75, 
+        "milage": 95000.0, 
+        "status": "in_maintenance", 
+        "visible": false, 
+        "vehicle_requirements": [
+            {
+                "license_type": ["D"], 
+                "experience": 36
+            }
+        ], 
+        "payment_types": [
+            {
+                "type": "month", 
+                "amount": 1500000.0
+            }
+        ]
+    }, 
+    "c345d678-e901-4fbc-2345-67890cdef012": {
+        "is_booked": true, 
+        "deposit": 900000.0, 
+        "milage": 31000.25, 
+        "status": "booked", 
+        "visible": true, 
+        "vehicle_requirements": [
+            {
+                "license_type": ["A", "B"], 
+                "experience": 12
+            }
+        ], 
+        "payment_types": [
+            {
+                "type": "milage", 
+                "amount": 10.5
+            }, 
+            {
+                "type": "hour", 
+                "amount": 2500.0
+            }
+        ]
+    }, 
+    "d456e789-f012-4bcd-3456-7890def01234": {
+        "is_booked": true, 
+        "deposit": 2300000.5, 
+        "milage": 120000.0, 
+        "status": "in_maintenance", 
+        "visible": false, 
+        "vehicle_requirements": [
+            {
+                "license_type": ["C"], 
+                "experience": 18
+            }
+        ], 
+        "payment_types": [
+            {
+                "type": "year", 
+                "amount": 12000000.0
+            }
+        ]
+    }, 
+    "e567f890-0123-4cde-4567-8901ef012345": {
+        "is_booked": false, 
+        "deposit": 700000.0, 
+        "milage": 28000.75, 
+        "status": "available", 
+        "visible": true, 
+        "vehicle_requirements": [
+            {
+                "license_type": ["B"], 
+                "experience": 6
+            }
+        ], 
+        "payment_types": [
+            {
+                "type": "day", 
+                "amount": 55000.0
+            }
+        ]
+    }, 
+    "f6789012-1234-4def-5678-9012f0123456": {
+        "is_booked": false, 
+        "deposit": 1650000.0, 
+        "milage": 80000.0, 
+        "status": "available", 
+        "visible": true, 
+        "vehicle_requirements": [
+            {
+                "license_type": ["B", "D"], 
+                "experience": 30
+            }
+        ], 
+        "payment_types": [
+            {
+                "type": "month", 
+                "amount": 1000000.0
+            }, 
+            {
+                "type": "week", 
+                "amount": 450000.0
+            }
+        ]
+    }, 
+    "g7890123-2345-4abc-6789-0123f1234567": {
+        "is_booked": true, 
+        "deposit": 1400000.0, 
+        "milage": 68000.3, 
+        "status": "in_maintenance", 
+        "visible": false, 
+        "vehicle_requirements": [
+            {
+                "license_type": ["C"], "experience": 15
+            }
+        ], 
+        "payment_types": [
+            {
+                "type": "milage", 
+                "amount": 8.75
+            }
+        ]
+    }, 
+    "h8901234-3456-4bcd-7890-1234f2345678": {
+        "is_booked": false, 
+        "deposit": 1200000.5, 
+        "milage": 55000.2, 
+        "status": "available", 
+        "visible": true, 
+        "vehicle_requirements": [
+            {
+                "license_type": ["A", "B"], 
+                "experience": 9
+            }
+        ], 
+        "payment_types": [
+            {
+                "type": "day", 
+                "amount": 60000.0
+            }
+        ]
+        }, 
+    "i9012345-4567-4cde-8901-2345f3456789": {
+        "is_booked": true, 
+        "deposit": 2500000.0, 
+        "milage": 130000.45, 
+        "status": "in_maintenance", 
+        "visible": false, 
+        "vehicle_requirements": [
+            {
+                "license_type": ["B", "C"], 
+                "experience": 24
+            }
+        ], 
+        "payment_types": [
+            {
+                "type": "year", 
+                "amount": 15000000.0
+            }
+        ]
+        }, 
+    "j0123456-5678-4def-9012-3456f4567890": {
+        "is_booked": false, 
+        "deposit": 800000.0, 
+        "milage": 32000.1, 
+        "status": "available", 
+        "visible": true, 
+        "vehicle_requirements": [
+            {
+                "license_type": ["B"], 
+                "experience": 18
+            }
+        ], 
+        "payment_types": [
+            {
+                "type": "week", 
+                "amount": 400000.0
+            }
+        ]
+        }
+    }

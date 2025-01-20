@@ -13,6 +13,7 @@ class LicenseTypeEnum(str, Enum):
     A = "A"
     B = "B"
     C = "C"
+    D = "D"
     BC = "BC"
     E = "E"
 
