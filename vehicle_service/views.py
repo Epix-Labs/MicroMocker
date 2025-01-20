@@ -42,7 +42,24 @@ def get_vehicle(vehicle_id: UUID, _: str = Depends(authenticate)):
     return vehicle
 
 @vehicle_app.put("/vehicle/{vehicle_id}")
-def update_vehicle(vehicle_id: UUID, update_data: dict, _: str = Depends(authenticate)):
+def update_vehicle_put(vehicle_id: UUID, update_data: dict, _: str = Depends(authenticate)):
+    # Update entire vehicle resource with the new data
+    vehicle = vehicle_db.get(str(vehicle_id))  # JSON stores keys as strings
+    if not vehicle:
+        raise HTTPException(status_code=404, detail="Vehicle not found")
+    
+    # Update allowed fields
+    for field, value in update_data.items():
+        if field in vehicle:
+            vehicle[field] = value
+
+    vehicle_db[str(vehicle_id)] = vehicle
+    save_vehicle_data(vehicle_db)  # Save changes back to the JSON file
+    return {"message": "Vehicle updated successfully", "vehicle": vehicle}
+
+@vehicle_app.patch("/vehicle/{vehicle_id}")
+def update_vehicle_patch(vehicle_id: UUID, update_data: dict, _: str = Depends(authenticate)):
+    # Update part of the vehicle resource (partial update)
     vehicle = vehicle_db.get(str(vehicle_id))  # JSON stores keys as strings
     if not vehicle:
         raise HTTPException(status_code=404, detail="Vehicle not found")
