@@ -1,0 +1,168 @@
+{
+    "7c9e6679-7425-40de-944b-e07fc1f90ae7": {
+      "birth_of_date": "1992-05-14",
+      "is_verifyed": true,
+      "balance": 1250000.50,
+      "license_plate": {
+        "is_verified": true,
+        "issued_date": "2018-03-10",
+        "expiry_date": "2028-03-10",
+        "type": "B"
+      }
+    },
+    "e0c9031b-1a4e-4a2f-8c9e-4f7b5675df91": {
+      "birth_of_date": "1988-09-22",
+      "is_verifyed": false,
+      "balance": 750000.75,
+      "license_plate": {
+        "is_verified": false,
+        "issued_date": "2020-07-15",
+        "expiry_date": "2030-07-15",
+        "type": "C"
+      }
+    },
+    "f72853d9-71a2-46e9-92b5-1c7f3671cb18": {
+      "birth_of_date": "1995-12-01",
+      "is_verifyed": true,
+      "balance": 230000.00,
+      "license_plate": {
+        "is_verified": true,
+        "issued_date": "2017-11-05",
+        "expiry_date": "2027-11-05",
+        "type": "A"
+      }
+    },
+    "90a8b674-98e5-4f79-9a4b-725847b6e4fb": {
+      "birth_of_date": "2000-06-30",
+      "is_verifyed": false,
+      "balance": 500000.00,
+      "license_plate": {
+        "is_verified": false,
+        "issued_date": "2019-02-21",
+        "expiry_date": "2029-02-21",
+        "type": "BC"
+      }
+    },
+    "37b51d19-3e8e-44e2-b8c4-1a517045e252": {
+      "birth_of_date": "1985-01-19",
+      "is_verifyed": true,
+      "balance": 1800000.25,
+      "license_plate": {
+        "is_verified": true,
+        "issued_date": "2015-05-20",
+        "expiry_date": "2025-05-20",
+        "type": "E"
+      }
+    },
+    "145bce99-0341-4cf1-9a0d-9fcb1db82fc5": {
+      "birth_of_date": "1998-03-11",
+      "is_verifyed": true,
+      "balance": 950000.50,
+      "license_plate": {
+        "is_verified": true,
+        "issued_date": "2016-09-10",
+        "expiry_date": "2026-09-10",
+        "type": "B"
+      }
+    },
+    "dfe0a5f3-2f2b-4d94-9e27-1c6728f5d2a0": {
+      "birth_of_date": "1993-07-07",
+      "is_verifyed": false,
+      "balance": 300000.75,
+      "license_plate": {
+        "is_verified": false,
+        "issued_date": "2021-01-01",
+        "expiry_date": "2031-01-01",
+        "type": "C"
+      }
+    },
+    "813a08e4-1f2d-4328-b35b-5fbc3ef71dd5": {
+      "birth_of_date": "1980-10-29",
+      "is_verifyed": true,
+      "balance": 2100000.00,
+      "license_plate": {
+        "is_verified": true,
+        "issued_date": "2012-04-12",
+        "expiry_date": "2022-04-12",
+        "type": "BC"
+      }
+    },
+    "19ffb9bb-1bc5-4a99-8f97-9f33c1215cc9": {
+      "birth_of_date": "1991-08-23",
+      "is_verifyed": true,
+      "balance": 420000.00,
+      "license_plate": {
+        "is_verified": true,
+        "issued_date": "2014-12-01",
+        "expiry_date": "2024-12-01",
+        "type": "E"
+      }
+    },
+    "9827f69c-22b8-4a9c-8b5a-64c93c2bde7f": {
+      "birth_of_date": "1987-04-05",
+      "is_verifyed": false,
+      "balance": 1100000.00,
+      "license_plate": {
+        "is_verified": false,
+        "issued_date": "2019-06-18",
+        "expiry_date": "2029-06-18",
+        "type": "A"
+      }
+    },
+    "35a0bc9d-8a2b-470b-bd57-93a27157edcf": {
+      "birth_of_date": "1994-11-15",
+      "is_verifyed": true,
+      "balance": 600000.25,
+      "license_plate": {
+        "is_verified": true,
+        "issued_date": "2015-10-30",
+        "expiry_date": "2025-10-30",
+        "type": "B"
+      }
+    },
+    "4c1b2f73-6d88-4d1c-b967-7f3eb6e0f0d5": {
+      "birth_of_date": "1990-02-28",
+      "is_verifyed": false,
+      "balance": 250000.50,
+      "license_plate": {
+        "is_verified": false,
+        "issued_date": "2020-09-12",
+        "expiry_date": "2030-09-12",
+        "type": "C"
+      }
+    },
+    "0e55c69f-37b6-4b09-9538-9cf9bbf1dd78": {
+      "birth_of_date": "1989-07-12",
+      "is_verifyed": true,
+      "balance": 1450000.00,
+      "license_plate": {
+        "is_verified": true,
+        "issued_date": "2016-02-28",
+        "expiry_date": "2026-02-28",
+        "type": "BC"
+      }
+    },
+    "7d78c9a6-4581-4a6f-9d42-8faec7f8d74e": {
+      "birth_of_date": "1986-09-09",
+      "is_verifyed": true,
+      "balance": 890000.00,
+      "license_plate": {
+        "is_verified": true,
+        "issued_date": "2013-08-03",
+        "expiry_date": "2023-08-03",
+        "type": "E"
+      }
+    },
+    "ba98cdef-87e4-49c5-9d0c-17234bcdef57": {
+      "birth_of_date": "1997-05-21",
+      "is_verifyed": false,
+      "balance": 320000.75,
+      "license_plate": {
+        "is_verified": false,
+        "issued_date": "2021-04-14",
+        "expiry_date": "2031-04-14",
+        "type": "A"
+      }
+    }
+  }
+  
