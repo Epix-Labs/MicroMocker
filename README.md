@@ -85,15 +85,18 @@ The User and Vehicle services use JSON formatted mock data instead of a database
 
 *Project Structure*
 ```
+├── mock_data/
+|   ├── user_data.py             # FastAPI application for user service
+│   ├── vehicle_data.py
 ├── user_service/
 │   ├── views.py             # FastAPI application for user service
-│   ├── mock_data.json       # Mock data for user service
+│   ├── models.py       # Mock data for user service
 │   └── __init__.py
 ├── vehicle_service/
 │   ├── views.py             # FastAPI application for vehicle service
-│   ├── mock_data.json       # Mock data for vehicle service
+│   ├── models.py     # Mock data for vehicle service
 │   └── __init__.py
-├── run_services.py          # Script to run both services concurrently
+├── main.py          # Script to run both services concurrently
 ├── requirements.txt         # List of dependencies
 ├── README.md                # Documentation file
 └── .gitignore               # Git ignore file
